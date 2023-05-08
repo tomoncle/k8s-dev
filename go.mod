@@ -1,6 +1,6 @@
 module k8s-dev
 
-go 1.20
+go 1.19
 // 本地包导入，添加如下配置，执行 go mod tidy
 replace github.com/tomoncle/k8s-operator-nginx => ../k8s-operator-nginx
 
